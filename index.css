@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+    background-color: #181b20;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.app-background {
+    padding-top: 5px;
+    background-color: #141415;
+    width: 317px;
+    height: 700px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-span {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profileImage {
+    height: 250px;
+    width: 317px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.profileName {
+    font-weight: 700;
+    font-size: 1.6rem;
+    margin-bottom: 0%;
+}
+
+.jobTitle {
+    font-weight: 200;
+    font-size: 0.8rem;
+    color: #F3BF99;
+    margin-top: 0%;
+}
+
+.sectionHeader {
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 0%;
+}
+
+.sectionText {
+    font-weight: 100;
+    font-size: 0.7rem;
+}
+
+.button-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 6px 20px;
+  border-radius: 6px;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn:hover {
+  color: #1da1f2; 
+}
+
+/* Email button */
+.email-btn {
+  background: white;
+  color: black;
+  border: 1px solid #ccc;
+}
+
+/* LinkedIn button */
+.linkedin-btn {
+  background: #0A66C2;
+  color: white;
+}
+
+.about-span {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.interests-span {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+.social-footer {
+  background: #0f0f0f;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  border-radius: 0px 0px 10px 10px;
+  width: 100%;
+  box-sizing: border-box;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.social-footer a {
+  color: rgb(175, 174, 174);
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.social-footer a:hover {
+  color: #1da1f2; 
+}
