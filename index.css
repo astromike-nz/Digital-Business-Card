@@ -113,6 +113,10 @@ body {
     margin-bottom: 30px;
 }
 
+.interests-hyperlink {
+  color:#8bc20a;
+}
+
 .social-footer {
   background: #0f0f0f;
   padding: 20px;
