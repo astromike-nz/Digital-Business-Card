@@ -2,7 +2,7 @@ export default function Info() {
   return (
     <>
         <span className="info-span">
-            <img src="../images/print-137.png" className="profileImage" alt="profile picture" />
+            <img src="./images/print-137.png" className="profileImage" alt="profile picture" />
             <h1 className="profileName">Mike White</h1>
             <p className="jobTitle">Senior Software Engineer</p>
             <div className="button-row">
