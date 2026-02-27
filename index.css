@@ -46,20 +46,20 @@ body {
 
 .jobTitle {
     font-weight: 200;
-    font-size: 0.8rem;
+    font-size: 12.8px;
     color: #F3BF99;
     margin-top: 0%;
 }
 
 .sectionHeader {
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 16px;
     margin-bottom: 0%;
 }
 
 .sectionText {
-    font-weight: 100;
-    font-size: 0.7rem;
+    font-weight: 300;
+    font-size: 12px;
 }
 
 .button-row {
