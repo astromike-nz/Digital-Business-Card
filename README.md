@@ -1,3 +1,6 @@
+# Why?
+This is part of my "Learn React" journey with Scrimba, which I am thoroughly enjoying! To join Scrimba, please use [this link].(https://scrimba.com/?via=u01bchu)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
