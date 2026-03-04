@@ -1,5 +1,5 @@
 # Why?
-This is part of my "Learn React" journey with Scrimba, which I am thoroughly enjoying! To join Scrimba, please use [this link].(https://scrimba.com/?via=u01bchu)
+This is part of my "Learn React" journey with Scrimba, which I am thoroughly enjoying! To join Scrimba, please visit https://scrimba.com/?via=u01bchu
 
 # React + Vite
 
