@@ -1,8 +1,28 @@
+import { useConfig } from "../src/context/ConfigContext"
+
 export default function Interests() {
+  const config = useConfig()
+  const { interests } = config
+
   return (
     <span className="interests-span">    
-        <h1 className="sectionHeader">Interests</h1>
-        <p className="sectionText">Learning new technologies. Keen interest in amateur astronomy and astrophotography (<a href="https://www.youtube.com/watch?v=EQVm7p6LkdI" target="_blank"><i className="interests-hyperlink">Mars, Saturn & Jupiter through my telescope</i></a>). Drone flying and producing video content (<a href="https://www.youtube.com/watch?v=QAFEL1Uc79E" target="_blank"><i className="interests-hyperlink">Jack's Point Lighthouse</i></a>).</p>
+        <h1 className="sectionHeader">{interests.heading}</h1>
+        <p className="sectionText">
+          {interests.content}
+          {interests.links && interests.links.length > 0 && (
+            <>
+              {" "}
+              {interests.links.map((link, index) => (
+                <span key={index}>
+                  {index > 0 && " "}
+                  (<a href={link.href} target="_blank" rel="noopener noreferrer">
+                    <i className="interests-hyperlink">{link.text}</i>
+                  </a>){index < interests.links.length - 1 && "."}
+                </span>
+              ))}
+            </>
+          )}
+        </p>
     </span>
   )
 }

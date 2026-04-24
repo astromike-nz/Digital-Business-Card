@@ -1,8 +1,13 @@
+import { useConfig } from "../src/context/ConfigContext"
+
 export default function About() {
+  const config = useConfig()
+  const { about } = config
+
   return (
     <span className="about-span">
-        <h1 className="sectionHeader">About</h1>
-        <p className="sectionText">20+ years of experience designing, optimising and delivering enterprise-scale API systems in C# .NET, ASP.NET, LINQ & SQL. Skilled in Agile/Scrum environments, mentoring and driving reliable, high-performance software solutions.</p>
+        <h1 className="sectionHeader">{about.heading}</h1>
+        <p className="sectionText">{about.content}</p>
     </span>   
   )
 }
