@@ -3,17 +3,63 @@ This is part of my "Learn React" journey with Scrimba, which I am thoroughly enj
 
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A customizable React + Vite digital business card application. All content (name, title, bio, links, etc.) is controlled through a single `config.json` file, making it easy for others to fork and customize.
 
-Currently, two official plugins are available:
+## Setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Installation
 
-## React Compiler
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Configuration
 
-## Expanding the ESLint configuration
+1. Copy the example config to create your personal config:
+   ```bash
+   cp public/config.example.json public/config.json
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Edit `public/config.json` with your personal information:
+   - **profile**: Your name, job title, profile image path, email, and LinkedIn URL
+   - **about**: Your bio or about section heading and content
+   - **interests**: Your interests heading, description, and any related links
+   - **socialLinks**: Your social media profile URLs (Twitter, Facebook, Instagram, GitHub)
+
+3. Replace the profile image:
+   - Replace `public/print-137.png` with your own profile picture (or update the image path in `public/config.json`)
+
+### Development
+
+Run the development server:
+```bash
+npm run dev
+```
+
+The app will load your configuration from `public/config.json` at startup and display an error if the config is invalid or missing.
+
+### Building
+
+Build for production:
+```bash
+npm run build
+```
+
+Preview the production build:
+```bash
+npm run preview
+```
+
+## Configuration File Format
+
+The `public/config.json` file controls all customizable content. See `public/config.example.json` for the complete structure and required fields.
+
+### Important: Git
+
+**Do not commit `public/config.json` to version control** — it contains your personal information. The file is already in `.gitignore` to prevent accidental commits. Only `public/config.example.json` is tracked in Git.
+
+## Customization
+
+To customize beyond the config file, modify the component files in the `components/` directory or update the CSS in `index.css` and `src/App.css`.

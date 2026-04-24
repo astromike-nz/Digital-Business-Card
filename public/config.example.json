@@ -1,0 +1,33 @@
+{
+  "profile": {
+    "name": "Mike White",
+    "jobTitle": "Senior Software Engineer",
+    "image": "/print-137.png",
+    "email": "baldviking10@gmail.com",
+    "linkedinUrl": "https://www.linkedin.com/in/mike-white-nzdev/"
+  },
+  "about": {
+    "heading": "About",
+    "content": "20+ years of experience designing, optimising and delivering enterprise-scale API systems in C# .NET, ASP.NET, LINQ & SQL. Skilled in Agile/Scrum environments, mentoring and driving reliable, high-performance software solutions."
+  },
+  "interests": {
+    "heading": "Interests",
+    "content": "Learning new technologies. Keen interest in amateur astronomy and astrophotography. Drone flying and producing video content.",
+    "links": [
+      {
+        "text": "Mars, Saturn & Jupiter through my telescope",
+        "href": "https://www.youtube.com/watch?v=EQVm7p6LkdI"
+      },
+      {
+        "text": "Jack's Point Lighthouse",
+        "href": "https://www.youtube.com/watch?v=QAFEL1Uc79E"
+      }
+    ]
+  },
+  "socialLinks": {
+    "twitter": "https://x.com/AstronomyMike",
+    "facebook": "https://www.facebook.com/astronutmike",
+    "instagram": "https://www.instagram.com/astronomymike/",
+    "github": "https://github.com/astromike-nz"
+  }
+}
