@@ -12,7 +12,7 @@ A customizable React + Vite digital business card application. All content (name
    npm install
    ```
 
-### Configuration
+### Configuration 
 
 1. Copy the example config to create your personal config:
    ```bash
