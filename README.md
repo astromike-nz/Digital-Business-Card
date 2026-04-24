@@ -1,4 +1,7 @@
-# Digital Business Card
+# Why?
+This is part of my "Learn React" journey with Scrimba, which I am thoroughly enjoying! To join Scrimba, please visit https://scrimba.com/?via=u01bchu
+
+# React + Vite
 
 A customizable React + Vite digital business card application. All content (name, title, bio, links, etc.) is controlled through a single `config.json` file, making it easy for others to fork and customize.
 
