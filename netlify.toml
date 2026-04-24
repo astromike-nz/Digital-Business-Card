@@ -1,0 +1,6 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[context.production]
+  command = "npm run build && mv dist/config.example.json dist/config.json"
